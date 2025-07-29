@@ -69,7 +69,7 @@ dependencies:
     - spacy==3.8.7
     - spacy-legacy==3.0.12
     - spacy-loggers==1.0.5
-    - en-core-web-sm==3.8.0
+    #- en-core-web-sm==3.8.0 can't have the models in my VA build (done after)
     # Knowledge graph and ontology dependencies
     - rdflib==7.1.4
     - rdflib-jsonld==0.6.1
